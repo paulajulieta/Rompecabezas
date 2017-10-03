@@ -1,0 +1,35 @@
+function grillaOrdenada(){
+// cantidad de filas de la grilla en una variable
+var cantidadFilas = grilla.length;
+var cantidadColumnas= columnas.length;
+
+var contadorPosiciones=0;
+var posiciónActual= 0;
+
+for(var i = 0; i <cantidadFilas.length; i++){ //filas: i
+     for(var j = 0; j <cantidadColumnas.length; j++){//columnas:j
+     posiciónActual=grilla[i][j];
+      // si la posicionActual es menor al contador de posiciones ()
+      if (posiciónActual< contadorPosiciones){
+       return true;
+       contadorPosiciones= posiciónActual;  //?
+      }
+     else 
+     return false;
+    }
+} 
+function grillaOrdenada(){
+  var contadorPosiciones=0;
+  var posiciónActual= 0;
+for(var i = 0; i <grillaOrdenada[i].length; i++){ //filas: i
+     for(var j = 0; j <grillaOrdenada[j].length; j++){//columnas:j
+     posiciónActual=grillaOrdenada;
+      // si la posicionActual es menor al contador de posiciones ()
+      if (posiciónActual< contadorPosiciones){
+       return true;
+       contadorPosiciones= posiciónActual;  //?
+      }
+     else 
+     return false;
+    }
+}

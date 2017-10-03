@@ -1,0 +1,58 @@
+body {
+  font-family: Arial, sans-serif;
+  width: 940px;
+  margin: 5% auto;
+  min-height: 100%;
+  background-image: url(../images/adventure.jpg);
+}
+ul {
+  padding-left: 0;
+  list-style: none;
+}
+li {
+  padding: 5px 0;
+}
+li::before {
+  content: "• ";
+  color: #EC6778;
+}
+.col-40, .col-60 { /*grilla*/
+  display: table-cell;
+  margin: 0;
+  vertical-align: top;
+}
+.col-40 {
+  background: #FFF;
+  padding: 30px;
+  color: #000;
+}
+#titulo{
+  background-color: #a93838;
+  font-size: 24px;
+  color:white;
+  margin-bottom: 22px;
+}
+#instrucciones{
+  color:#a93838;
+  font-size: 24px;
+}
+.items-instrucciones{
+  color:black;
+  font-size: 20px;
+}
+#juego  {/* tablero del juego*/
+  height: 610px;
+  width: 630px;
+  background-color: #ff7a7a;
+  text-align:center; ;
+  animation: fadein 2s;
+}
+.imagen{
+  width: 210px;
+  height: 203px;
+  float:left;
+ }
+ @keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
